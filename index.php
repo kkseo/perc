@@ -127,7 +127,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h6 class="type--uppercase">Instagram Feed 3
+                            <h6 class="type--uppercase">Instagram Feed 3/4
                                 <i class="stack-down-dir"></i>
                             </h6>
                         </div>
@@ -138,8 +138,7 @@
                 <!--end of container-->
             </section>
            <section class="unpad instagram text-center">
-                <div class="instafeed instafeed--gapless" data-user-name="perctiling" data-access-token="84792acf02924accaf290528c442a1a0" data-client-id="1b5137cf4d0d444ea44be9da7c5ee618" data-amount="8" data-grid="1"></div>
-                
+                <div class="instafeed instafeed--gapless" data-user-name="perctiling" data-access-token="84792acf02924accaf290528c442a1a0" data-client-id="1b5137cf4d0d444ea44be9da7c5ee618" data-amount="8" data-grid="1"></div> 
 
             </section>
             <section class="text-center">
