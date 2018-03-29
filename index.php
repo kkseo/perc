@@ -166,7 +166,7 @@
                     </div>
                 </div>
             </section>
-            <section class="unpad">
+           <!-- <section class="unpad">
                 <div class="masonry masonry--gapless">
                     <div class="masonry__container masonry--active">
                         <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
@@ -248,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
             <section>
                 <div class="container">
                     <div class="row">
