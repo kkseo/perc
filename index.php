@@ -123,7 +123,16 @@
                     </div>
                 </div>
             </section>
-            <!-- LightWidget WIDGET -->
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                         <h2> <i class="socicon socicon-instagram icon icon--xs"></i> Instagram </h2> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Instagram feed -->
            <section class="unpad instagram text-center">
                 <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2ad976d8c8c75d2d8bfdc404a05a2e9b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
             </section>
