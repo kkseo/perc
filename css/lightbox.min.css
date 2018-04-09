@@ -106,7 +106,7 @@ body:after {
 }
 
 .lb-nav a.lb-prev {
-    width: 34%;
+    width: 52%;
     left: 0;
     float: left;
     filter: alpha(Opacity=0);
@@ -157,7 +157,7 @@ body:after {
 .lb-dataContainer {
     margin: 0 auto;
     padding-top: 5px;
-    min-height: 35px;
+    min-height: 95px;
     *zoom: 1;
     width: 100%;
     -moz-border-radius-bottomleft: 4px;
