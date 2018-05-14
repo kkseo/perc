@@ -41,7 +41,7 @@
                                                         <li class="h4"> <a href="services.html">Services</a> </li>
                                                         <li class="h4"> <a href="gallery.html">Gallery</a> </li>
                                                         <li class="h4"> <a href="contact.html">Contact</a> </li>
-                                                        <br><li class="h4"> <a href="1300414162"> 1300 414 162</a> </li>
+                                                        <br><li class="h4"> <a href="tel:1300414162"> 1300 414 162</a> </li>
                                                        
                                                     </ul>
                                                 </div>
