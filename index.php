@@ -157,11 +157,11 @@
                             </div>
                             <div class="text-block">
                                 <h5>Your Vision</h5>
-                                <p> We strive to always have open communication, to be sympathetic to client demands and truly invest time and energy to understand your vision. </p>
+                                <p> We strive to always have clear communication and take time to understand your vision. </p>
                             </div>
                             <div class="text-block">
                                 <h5>Our Culture</h5>
-                                <p> We have built a culture of well-mannered staff who are neat and tidy, fast, consistent, highly skilled, work as a team and proud to be part of the PERC family. </p>
+                                <p> We have built a culture of well-mannered staff who are neat, tidy, fast, consistent, highly skilled, work as a team and are proud to be part of the PERC family. </p>
                             </div>
                         </div>
                     </div>
