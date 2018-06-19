@@ -142,7 +142,7 @@
                     <div class="row">
                         <div class="col-sm-10 col-md-8">
                             <h2>About us</h2>
-                            <p class="lead"> PERC has worked with a variety of award winning builders and commercial developers adding to its wealth of knowledge and experience that is applied to every subsequent project.&nbsp;</p>
+                            <p class="lead"> PERC works with a variety of award winning builders, architects and commercial developers on luxuery tiling projects.&nbsp;</p>
                         </div>
                     </div>
                 </div>
