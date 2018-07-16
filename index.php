@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="main-container">
-            <section class="cover height-70 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true">
+            <section class="cover height-70 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true" data-timing="6000">
                 <ul class="slides">
                     <li class="imagebg parallax" data-overlay="4">
                         <div class="background-image-holder"> <img alt="background" src="img/banner2.jpg"> </div>
@@ -135,14 +135,14 @@
             </section>
             <!-- Instagram feed -->
            <section class="unpad instagram text-center">
-                <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2ad976d8c8c75d2d8bfdc404a05a2e9b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+              <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2ad976d8c8c75d2d8bfdc404a05a2e9b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
             </section>
             <section class="text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10 col-md-8">
                             <h2>About us</h2>
-                            <p class="lead"> PERC works with a variety of award winning builders, architects and commercial developers on luxuery tiling projects.&nbsp;</p>
+                            <p class="lead"> PERC works with a variety of award winning builders, architects and commercial developers on luxury tiling projects.&nbsp;</p>
                         </div>
                     </div>
                 </div>
@@ -157,12 +157,15 @@
                             </div>
                             <div class="text-block">
                                 <h5>Your Vision</h5>
-                                <p> We strive to always have clear communication and take time to understand your vision. </p>
+                                <p> We strive to always have clear communication and take time to fulfil your vision. </p>
                             </div>
                             <div class="text-block">
                                 <h5>Our Culture</h5>
-                                <p> We have built a culture of well-mannered staff who are neat, tidy, fast, consistent, highly skilled, work as a team and are proud to be part of the PERC family. </p>
+                                <p> We have built a team of highly passionate tilers who are proud to be part of the PERC family. We are honest, reliable and committed. </p>
                             </div>
+                            <a class="btn btn--primary type--uppercase" href="about.html"> <span class="btn__text">
+                                About Us
+                            </span> </a>
                         </div>
                     </div>
                 </div>
@@ -255,10 +258,14 @@
                     <div class="row">
                         <div class="slider slider--inline-arrows slider--arrows-hover text-center" data-arrows="true">
                             <ul class="slides">
-                                <li class="col-sm-3 col-xs-6"> <a href="http://tomkinscommercial.com.au/project/college-junction-clayfield/"><img alt="Image" class="image--xxs" src="img/1.jpg"> </li> </a>
-                                <li class="col-sm-3 col-xs-6"> <a href="http://apolloproperty.com.au/project/hotel-grand-chancellor-brisbane/"><img alt="Image" class="image--xxs" src="img/2.jpg"> </li></a>
-                                <li class="col-sm-3 col-xs-6">  <a href="http://www.petrobuilders.com.au/projects/simla-new-farm-heritage-renovation//"><img alt="Image" class="image--xxs" src="img/3.jpg"> </li></a>
-                                <li class="col-sm-3 col-xs-6">  <a href="http://cghconstructions.com.au/portfolio/rocky-passage"><img alt="Image" class="image--xxs" src="img/4.jpg"> </li></a>
+                                <li class="col-sm-3 col-xs-6"> 
+                                    <a href="http://tomkinscommercial.com.au/project/college-junction-clayfield/" target="_blank"><img alt="Image" class="image--xxs" src="img/1.jpg"> </li> </a>
+                                <li class="col-sm-3 col-xs-6"> 
+                                    <a href="http://apolloproperty.com.au/project/hotel-grand-chancellor-brisbane/" target="_blank"><img alt="Image" class="image--xxs" src="img/2.jpg"> </li></a>
+                                <li class="col-sm-3 col-xs-6">  
+                                    <a href="http://www.petrobuilders.com.au/projects/simla-new-farm-heritage-renovation/" target="_blank"><img alt="Image" class="image--xxs" src="img/3.jpg"> </li></a>
+                                <li class="col-sm-3 col-xs-6">  
+                                    <a href="http://cghconstructions.com.au/portfolio/rocky-passage" target="_blank"><img alt="Image" class="image--xxs" src="img/4.jpg"> </li></a>
                             </ul>
                         </div>
                     </div>
@@ -275,7 +282,7 @@
                             Get a quote</span> </a>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-5"> <img alt="Image" class="block" src="img/PNGPIX-COM-Trowel-PNG-Transparent-Image-4-500x329.png"> </div>
+                        
                     </div>
                 </div>
             </section>
