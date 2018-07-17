@@ -83,16 +83,16 @@ r<!doctype html>
                             <p class="lead"> Give us a call, we endeavour to answer all enquiries within 24 hours on business days. </p>
                             <p class="lead"> We are open from 9am — 5pm week days<br><br>PO Box 465<br>Indooroopilly Centre<br>QLD 4068<br> </p>
                         </div>
-                     <!--   <div class="col-sm-6 col-xs-12">
+                       <div class="col-sm-6 col-xs-12">
                             <div class="row">
-                                <form class="form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
-                                    <div class="col-sm-6 col-xs-12"> <label>Your Name:</label> <input type="text" name="Name" class="validate-required"> </div>
-                                    <div class="col-sm-6 col-xs-12"> <label>Email Address:</label> <input type="email" name="email" class="validate-required validate-email"> </div>
-                                    <div class="col-sm-12 col-xs-12"> <label>Message:</label> <textarea rows="4" name="Message" class="validate-required"></textarea> </div>
+                                <form class="form-email" action="https://makeservice.herokuapp.com/perc_group/contact" id="contact-form" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                                    <div class="col-sm-6 col-xs-12"> <label>Your Name:</label> <input type="text" name="contact[name]" class="validate-required"> </div>
+                                    <div class="col-sm-6 col-xs-12"> <label>Email Address:</label> <input type="email" name="contact[email]" class="validate-required validate-email"> </div>
+                                    <div class="col-sm-12 col-xs-12"> <label>Message:</label> <textarea rows="4" name="contact[message]" class="validate-required"></textarea> </div>
                                     <div class="col-sm-5 col-md-4 col-xs-6"> <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button> </div>
                                 </form>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -116,7 +116,9 @@ r<!doctype html>
         <script src="js/parallax.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
-
+        <script type="text/javascript">  
+            $.get(apiUrl + "https://makeservice.herokuapp.com/pong.json");
+        </script>
     </body>
 
 </html>
