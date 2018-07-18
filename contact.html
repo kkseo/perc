@@ -1,4 +1,4 @@
-r<!doctype html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -85,7 +85,7 @@ r<!doctype html>
                         </div>
                        <div class="col-sm-6 col-xs-12">
                             <div class="row">
-                                <form class="form-email" action="https://makeservice.herokuapp.com/perc_group/contact" id="contact-form" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                                <form class="form-email" action="https://makeservice.herokuapp.com/perc_group/contact" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
                                     <div class="col-sm-6 col-xs-12"> <label>Your Name:</label> <input type="text" name="contact[name]" class="validate-required"> </div>
                                     <div class="col-sm-6 col-xs-12"> <label>Email Address:</label> <input type="email" name="contact[email]" class="validate-required validate-email"> </div>
                                     <div class="col-sm-12 col-xs-12"> <label>Message:</label> <textarea rows="4" name="contact[message]" class="validate-required"></textarea> </div>
@@ -117,7 +117,7 @@ r<!doctype html>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
         <script type="text/javascript">  
-            $.get(apiUrl + "https://makeservice.herokuapp.com/pong.json");
+            $.get("https://makeservice.herokuapp.com/pong.json");
         </script>
     </body>
 
