@@ -164,14 +164,14 @@
                                                             <p class="lead">Please fill your information.</p>
                                                             <form enctype="multipart/form-data" method="POST" action="https://makeservice.herokuapp.com/perc_group/job" data-success="Thanks for apply, we'll be in touch shortly." data-error="Please provide your name, email address and resume file.">
                                                                 <label>Name:</label>
-                                                                <input class="validate-required" type="text" name="job[name]" placeholder="Your Name" />
+                                                                <input class="validate-required" type="text" name="job[name]" placeholder="Your Name" required/>
                                                                 <input  type="hidden" name="job[job_type]" value="tiler" />
                                                                 <label>Number:</label>
-                                                                <input class= class="validate-required" type="text" name="number" placeholder="Your Number" />
+                                                                <input class= class="validate-required" type="text" name="number" placeholder="Your Number"  required/>
                                                                 <label>Email:</label>
-                                                                <input class="validate-required validate-email" type="email" name="job[email]" placeholder="Email Address" />
+                                                                <input class="validate-required validate-email" type="email" name="job[email]" placeholder="Email Address" required/>
                                                                 <label>Resume/CV:</label>
-                                                                <input class="validate-required" type="file" name="job[attachment]" placeholder="Resume/CV" />
+                                                                <input class="validate-required" type="file" name="job[attachment]" placeholder="Resume/CV" required/>
                                                                 
                                                                 <button type="submit" class="btn btn--primary type--uppercase">Submit</button>
                                                             </form>
