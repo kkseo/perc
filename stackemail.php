@@ -45,7 +45,7 @@ $phone = $_POST['number'] ;
 //require(class.PHPMailer.php);
 //require('phpmailer/Exception.php');
 $mail = new \PHPMailer\PHPMailer\PHPMailer();
-
+//$mail = new PHPMailer();
 $mail->IsSMTP();
 
 $mail->Host = "smtp.gmail.com";
@@ -55,8 +55,8 @@ $mail->Username = "percmailer@gmail.com"; // SMTP username
 $mail->Password = "Illustrator2018"; // SMTP password
 $mail->addAttachment($file_name);
 $mail->From = $email;
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587; //SMTP port
+//$mail->SMTPSecure = 'tls';
+//$mail->Port = 587; //SMTP port
 $mail->addAddress("percmailer@gmail.com", "percmailer");
 $mail->Subject = "You have an email from a website visitor!";
 $mail->Body ="Name".$name."\n"."Email address".$email."\n"."You received cv file from customer now";
