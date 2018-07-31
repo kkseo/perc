@@ -57,13 +57,9 @@ $mail->addAttachment($file_name);
 $mail->From = $email;
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587; //SMTP port
-$mail->addAddress($email, $name);
+$mail->addAddress("percmailer@gmail.com", "percmailer");
 $mail->Subject = "You have an email from a website visitor!";
-$mail->Body ="
-Name: name<br>
-Email: email<br>
-Telephone: phone<br><br><br>
-Comments: message";
+$mail->Body ="Name".$name."\n"."Email address".$email."\n"."You received cv file from customer now";
 //$mail->AltBody = $message;
 
 if(!$mail->Send())
