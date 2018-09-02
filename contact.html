@@ -12,6 +12,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 
     </head>
     <body data-smooth-scroll-offset="77">
@@ -22,7 +23,7 @@
                         <div class="row">
                             <div class="col-md-1 col-sm-2 col-xs-3">
                                 <div class="bar__module">
-                                    <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/logo.dark.png"> <img class="logo logo-light" alt="logo" src="img/logo.light.png"> </a>
+                                    <a href="index.html"><img class="logo logo-dark" alt="logo" src="img/logo.dark.png"> <img class="logo logo-light" alt="logo" src="img/logo.light.png"> </a>
                                 </div>
                             </div>
                             <div class="col-md-11 col-sm-10 col-xs-9">
@@ -90,7 +91,9 @@
                                     <div class="col-sm-6 col-xs-12"> <label>Email Address:</label> <input type="email" name="contact[email]" class="validate-required validate-email"> </div>
                                     <div class="col-sm-6 col-xs-12"> <label>Your Number:</label> <input type="text" name="contact[number]" class="validate-required"> </div>
                                     <div class="col-sm-12 col-xs-12"> <label>Message:</label> <textarea rows="4" name="contact[message]" class="validate-required"></textarea> </div>
-                                    <div class="col-sm-5 col-md-4 col-xs-6"> <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button> </div>
+                                    <div class="col-sm-5 col-md-4 col-xs-6"> 
+                                    <div class="g-recaptcha" data-sitekey="6Ldj320UAAAAAPjVOcjC57GEMM_HShRCQr7z7fvP"></div>
+                                    <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button> </div>
                                 </form>
                             </div>
                         </div>
