@@ -29,7 +29,9 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-KMJTC63');</script>
         <!-- End Google Tag Manager -->
-
+<script type="application/ld+json">
+{ "@context": "http://schema.org", "@type": "Product", "name": "Perc Tiling", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "7" } }
+</script>
     </head>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container">
